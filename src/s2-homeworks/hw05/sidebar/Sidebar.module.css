@@ -1,25 +1,50 @@
 .sidebar {
+	background-color: rgb(237, 237, 237);
+	position: absolute;
+	z-index: 999;
+	padding: 40px;
 }
 
 .sidebar.open {
+	width: 250px;
+	height: 100%;
 }
 
 .background {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 998;
 }
 
 .nav {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: 30px;
+	text-decoration: none;
 }
 
 .nav a {
+	color: black;
+	text-decoration: none;
 }
 
 .nav a:hover {
+	color: rgb(71, 166, 255);
 }
 
 .nav a.active {
+	text-decoration: underline;
+    color: blue;
 }
 .close {
+	background-color: #fff;
 }
 
 .close img {
+	border: none;
 }
