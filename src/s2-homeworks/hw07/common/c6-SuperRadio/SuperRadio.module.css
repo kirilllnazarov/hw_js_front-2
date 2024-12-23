@@ -1,15 +1,21 @@
 .radio {
+	margin: 5px;
 }
 
 .radio::before {
+	outline: 1px solid red;
 }
 
-
 .radio:checked::before {
+	outline: 1px solid red;
 }
 
 .label {
+
 }
 
 .options {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }

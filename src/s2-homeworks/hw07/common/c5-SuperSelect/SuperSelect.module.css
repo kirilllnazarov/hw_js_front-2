@@ -1,9 +1,11 @@
 .select {
+	background-color: none;
 }
 
 .select:focus {
+	background-color: none;
 }
 
-
 .option:hover {
+	background-color: none;
 }
