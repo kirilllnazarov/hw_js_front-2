@@ -1,23 +1,36 @@
 .item {
+    outline: 1px 
+
 }
 
 .item:last-of-type {
+    outline: 1px 
+
 }
 
 .users {
+    padding: 15px;
 }
 
 .buttonsContainer {
+padding: 15px;
+display: flex;
+
 }
 
 .container {
+padding: 15px;
 }
 
 .thead {
+    background-color: darkgray;
 }
 
 .nameCol {
+    outline: 1px 
+
 }
 
 .ageCol {
+    outline: 1px 
 }
