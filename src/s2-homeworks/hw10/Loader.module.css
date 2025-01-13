@@ -1,3 +1,17 @@
 .loader {
-    /*свг и/или анимация*/
+	border: 3px solid #f3f3f3; /* Светлый цвет границы */
+	border-top: 3px solid #b352eb; /* Синий цвет границы */
+	border-radius: 50%; /* Делаем круг */
+	width: 20px; /* Ширина */
+	height: 20px; /* Высота */
+	animation: spin 1s linear infinite; /* Анимация */
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg); /* Начальное положение */
+	}
+	100% {
+		transform: rotate(360deg); /* Конечное положение */
+	}
 }
